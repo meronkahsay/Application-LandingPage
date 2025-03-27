@@ -245,8 +245,12 @@ header{
 nav{
     display: flex;
 }
+#ditilogo{
+    width: 15%;
+}
+
 nav span{
-    margin-right:15%;
+    margin-right:5%;
 }
 nav a{
   margin-left: 5%;
@@ -261,6 +265,9 @@ nav a{
   
 }
 #signup{
+    border: none;
+    border-radius: 15%;
+    padding: 0.5%;
     font-size: x-large;
     margin-left: 4%;
    background: linear-gradient(to right, #F8A5C2, #E6C3F6);
@@ -272,10 +279,20 @@ height: auto 0;
 display: flex;
 gap:15%;
 }
+.pink-rectangle{
+    background-color: #F8A5C2;
+    padding: 7%;
+    border-radius: 35%;
+position: absolute;
+left: -11%;
+top: 30%;
+transform: rotate(20deg);
+}
 .improve{
-     width: 39%;
+     width: 36%;
 }
 .improve h1{
+    color: #2c2c4e;
     font-family: "wid";
     font-size: 65px;
 }
@@ -286,18 +303,18 @@ gap:15%;
 }
 .app-store{
     font-size: x-large;
-    width: 40%;
+    width: 30%;
     height: 7%;
     background-color: #1F305E;
     border-radius: 12%;
     color: white;
-  
+    border: none;
 }
 .play-store{
     margin-left: 3%;
     border-radius: 12%;
     font-size: x-large;
-    width: 40%;
+    width: 38%;
     height: 7%;
 }
 .contact-us{
@@ -329,6 +346,13 @@ line-height: 10px;
 }
 #fast-uploading{
  width:55%;
+}
+#bottom-icon{
+    position: absolute;
+    left: 45%;
+    top:80%;
+    transform: rotate(190deg);
+    width: 6%;
 }
 .portfolio-image{
     position:absolute;
@@ -374,26 +398,44 @@ font-weight: bold;
     color: rgb(85, 83, 83);
 }
 #docorate-icons{
-    left:39%;
-    position:absolute;
-    top: 90%;
+    width: 7%;
+    position: absolute;
+    transform: rotate(170deg);
+    right:5%;
+    top: 25%;
 }
 .logo{
-    
+    margin-top: 12%;
     text-align: center;
 }
 
 .logos{
-    margin-left: 15%;
-    gap:10%;
-     display: flex;
+    margin: 5% 10%;
+     gap: 9%;
+    display: flex;
 }
 .logos img{
-    width: 7%; 
+    width: 15%; 
+    height: fit-content;
 }
-
+#slack{
+margin-top: -2%;
+}
+#trello{
+   margin-top: -5%; 
+}
+#microsoft{
+    margin-top: -1%;
+}
 .center{
 text-align: center;
+}
+#product-icon{
+    position: absolute;
+    transform: rotate(170deg);
+    width: 5%;
+    right: 13%;
+    top: 170%;
 }
 .product-criterea-container{
     padding: 3%;
@@ -405,33 +447,67 @@ text-align: center;
     text-align: center;
     display: flex;
 }
-.first-box{
+.easy-interface{
+    border: solid pink;
     background-color: white;
     width: 25%;
-    padding: 3%;
+    padding: 5% 3% 3% 3%;
+
 
 }
-.second-box{
+.secured-transfer{
     background-color: white;
     width: 25%;
-    padding: 3%;
+    padding: 5% 3% 3% 3%;
 }
-.third-box{
+.support{
     background-color: white;
     width: 25%;
-    padding: 3%;
+    padding: 5% 3% 3% 3%;
   
+}
+.light-boldtext{
+    color: #22224d;
+    font-size: xx-large;
+
 }
 .bigger-font{
     font-family: "wid";
     font-size: 50px;
 }
 .statical-data-container{
+    gap:15%;
     margin-left: 10%;
     display: flex;
 }
 .statical-data{
-    width: 37%;
+    width: 45%;
+}
+.statical-data .bigger-font{
+    width: 80%;
+}
+.create-account{
+    padding-left:  1%;
+    border-radius: 4%;
+    background-color: white;
+    top: 245%;
+    right: 5%;
+    position: absolute;
+    display: flex;
+}
+.create-account button{
+    margin-top: 40%;
+    background-color: #4169E1;
+     font-size: larger;
+ padding: 5%;
+ border-radius: 30%;
+ width: 170px;
+ border: none;
+}
+
+.statical-image img{
+ width: 800px;
+ 
 }
 
 .numbers{
@@ -461,12 +537,6 @@ width: 25%;
     font-size: x-large;
     background-color: #1F305E;
     border-radius: 15%;
-}
-.settings{
-
-}
-.social-app{
-
 }
 .user-comment{
     margin-left: 10%;
@@ -508,4 +578,3 @@ width: 25%;
 display: flex;
 margin-left: 35%;
 }
-
