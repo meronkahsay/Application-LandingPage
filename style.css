@@ -267,13 +267,13 @@ nav a{
  
 }
 .first-page{
-height: 100%;
+height: auto 0;
  margin: 10% 3%;
 display: flex;
-gap:25%;
+gap:15%;
 }
 .improve{
-     width: 32%;
+     width: 39%;
 }
 .improve h1{
     font-family: "wid";
@@ -306,36 +306,63 @@ gap:25%;
 .tilted-image{
     padding-left: 3%;
     background-color: white;
-    border:solid 1px; 
     rotate:-7deg;
-    border-radius: 5%;
     position: relative;
+    border-radius: 5%;
+}
+.tilted-image p{
+line-height: 10px;
 }
 .download-process{
-    position: absolute;
+  position: absolute;
   right:45%;
   background-color: white;
-  width:60%;
+  width:50%;
   text-align:center;
-
-
+  top:105%;
+  display: flex;
+  padding: 3%;
+  border-radius: 10%;
+}
+.download-processtxt{
+    width: 100%;
+}
+#fast-uploading{
+ width:55%;
 }
 .portfolio-image{
     position:absolute;
-    top:60%;
+    top:65%;
     right:10%;
 }
 .image-and-bluebg{
     display: flex;
 }
-
+.img-with-twoline{
+    left: 82%;
+    position: absolute;
+    height: 30%;
+    width: 13%;
+    background-color: white;
+    top:50%;
+    transform: rotate(5deg);
+    border-radius: 5%;;
+}
+.img-with-twoline img{
+    width:30%;
+}
+.two-lines{
+    margin-left: 15%;
+    width: 10%;
+}
 .blue-background{
- margin-left: 5%;
+ margin: 5%;
  width: 55%;
  padding: 3%;
  background-color: #eaf4fc;
 }
 .two-box{
+    margin-top: 6%;
     gap: 25%;
     display: flex;
 }
@@ -345,9 +372,6 @@ font-weight: bold;
 }
 .gray-colortext{
     color: rgb(85, 83, 83);
-}
-#beard-man img{
-position: absolute;
 }
 #docorate-icons{
     left:39%;
@@ -362,7 +386,6 @@ position: absolute;
 .logos{
     margin-left: 15%;
     gap:10%;
-   /* justify-content: space-between; */
      display: flex;
 }
 .logos img{
