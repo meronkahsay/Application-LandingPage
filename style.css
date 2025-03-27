@@ -1,0 +1,488 @@
+@media (max-width: 768px) {
+    header {
+        padding: 2% 4%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    nav a {
+        margin-left: 1%;
+        font-size: 16px;
+    }
+
+    #login, #signup {
+        margin-left: 1%;
+        font-size: 16px;
+        padding: 0.5rem;
+    }
+
+    .first-page {
+        flex-direction: column;
+        gap: 5%;
+        margin: 5% 1%;
+    }
+
+    .improve {
+        width: 100%;
+        text-align: center;
+    }
+
+    .improve h1 {
+        font-size: 40px;
+    }
+
+    .app-store, .play-store {
+        width: 45%;
+        margin: 1% auto;
+        display: inline-block;
+    }
+
+    .tilted-image {
+        rotate: 0deg;
+        width: 90%;
+        margin: 0 auto;
+        padding: 2%;
+    }
+
+    .image-and-bluebg {
+        flex-direction: column;
+    }
+
+    .blue-background {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .two-box {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .download-process {
+        position: static;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .portfolio-image {
+        position: static;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5%;
+        margin-left: 0;
+    }
+
+    .logos img {
+        width: 80px;
+    }
+
+    .product-criterea {
+        flex-direction: column;
+        margin: 5% 2%;
+        gap: 2rem;
+    }
+
+    .first-box, .second-box, .third-box {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .bigger-font {
+        font-size: 35px;
+    }
+
+    .statical-data-container {
+        flex-direction: column;
+        margin-left: 2%;
+    }
+
+    .statical-data {
+        width: 100%;
+        text-align: center;
+    }
+
+    .numbers {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .size-for-statics {
+        font-size: 50px;
+    }
+
+    .helping-customers-box {
+        flex-direction: column;
+        margin-left: 2%;
+        gap: 2rem;
+    }
+
+    .mobile-app, .settings, .social-app {
+        width: 100%;
+    }
+
+    .mobile-app button {
+        width: 50%;
+    }
+
+    .user-comment {
+        flex-direction: column;
+        margin-left: 2%;
+    }
+
+    .black-girl, .white-girl {
+        width: 100%;
+    }
+
+    .last-div {
+        flex-direction: column;
+        margin: 5% 2%;
+        gap: 2rem;
+    }
+
+    .download-app {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blue-footer {
+        flex-direction: column;
+        padding: 5% 2%;
+        gap: 2rem;
+    }
+
+    .black-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .terms {
+        margin-left: 0;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+/* Mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    nav span {
+        margin-bottom: 1rem;
+    }
+
+    nav a {
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+        font-size: 14px;
+    }
+
+    #login, #signup {
+        margin-left: 0;
+        font-size: 14px;
+        width: 50%;
+        text-align: center;
+    }
+
+    .improve h1 {
+        font-size: 30px;
+    }
+
+    .app-store, .play-store {
+        width: 80%;
+        display: block;
+        margin: 1% auto;
+    }
+
+    .bold-text {
+        font-size: 20px;
+    }
+
+    .logos img {
+        width: 50px;
+    }
+
+    .bigger-font {
+        font-size: 24px;
+    }
+
+    .size-for-statics {
+        font-size: 40px;
+    }
+
+    .mobile-app button {
+        width: 60%;
+        font-size: 16px;
+    }
+}
+body{
+    font-size: x-large;
+}
+@font-face {
+    font-family:"wid" ;
+    src: url(Image/wid.ttf);
+}
+header{
+    background-color: #F0FFFF;
+    padding: 3% 8% ;
+}
+nav{
+    display: flex;
+}
+nav span{
+    margin-right:15%;
+}
+nav a{
+  margin-left: 5%;
+  text-decoration: none;
+  color: rgb(80, 75, 75);
+}
+#login{
+    margin-left: 12%;
+    border: none;
+    font-size: x-large;
+   
+  
+}
+#signup{
+    font-size: x-large;
+    margin-left: 4%;
+   background: linear-gradient(to right, #F8A5C2, #E6C3F6);
+ 
+}
+.first-page{
+height: 100%;
+ margin: 10% 3%;
+display: flex;
+gap:25%;
+}
+.improve{
+     width: 32%;
+}
+.improve h1{
+    font-family: "wid";
+    font-size: 65px;
+}
+.red-text{
+    font-family: "wid";
+    text-decoration: underline;
+    color: red;
+}
+.app-store{
+    font-size: x-large;
+    width: 40%;
+    height: 7%;
+    background-color: #1F305E;
+    border-radius: 12%;
+    color: white;
+  
+}
+.play-store{
+    margin-left: 3%;
+    border-radius: 12%;
+    font-size: x-large;
+    width: 40%;
+    height: 7%;
+}
+.contact-us{
+    color: rgb(22, 21, 21); 
+}
+.tilted-image{
+    padding-left: 3%;
+    background-color: white;
+    border:solid 1px; 
+    rotate:-7deg;
+    border-radius: 5%;
+    position: relative;
+}
+.download-process{
+    position: absolute;
+  right:45%;
+  background-color: white;
+  width:60%;
+  text-align:center;
+
+
+}
+.portfolio-image{
+    position:absolute;
+    top:60%;
+    right:10%;
+}
+.image-and-bluebg{
+    display: flex;
+}
+
+.blue-background{
+ margin-left: 5%;
+ width: 55%;
+ padding: 3%;
+ background-color: #eaf4fc;
+}
+.two-box{
+    gap: 25%;
+    display: flex;
+}
+.bold-text{
+font-size: xx-large;
+font-weight: bold;
+}
+.gray-colortext{
+    color: rgb(85, 83, 83);
+}
+#beard-man img{
+position: absolute;
+}
+#docorate-icons{
+    left:39%;
+    position:absolute;
+    top: 90%;
+}
+.logo{
+    
+    text-align: center;
+}
+
+.logos{
+    margin-left: 15%;
+    gap:10%;
+   /* justify-content: space-between; */
+     display: flex;
+}
+.logos img{
+    width: 7%; 
+}
+
+.center{
+text-align: center;
+}
+.product-criterea-container{
+    padding: 3%;
+    background-color:#F0FFFF;;
+}
+.product-criterea{
+    gap: 5%;
+    margin:5% 15%;
+    text-align: center;
+    display: flex;
+}
+.first-box{
+    background-color: white;
+    width: 25%;
+    padding: 3%;
+
+}
+.second-box{
+    background-color: white;
+    width: 25%;
+    padding: 3%;
+}
+.third-box{
+    background-color: white;
+    width: 25%;
+    padding: 3%;
+  
+}
+.bigger-font{
+    font-family: "wid";
+    font-size: 50px;
+}
+.statical-data-container{
+    margin-left: 10%;
+    display: flex;
+}
+.statical-data{
+    width: 37%;
+}
+
+.numbers{
+    gap: 17%;
+    display: flex;
+}
+.size-for-statics{
+    font-size: 70px;
+}
+.helping-customers .bigger-font{
+    margin-left: 30%;
+width: 40%;
+}
+.helping-customers-box{
+    margin-left: 15%;
+    gap: 10%;
+    display: flex;
+}
+.mobile-app{
+width: 25%;
+}
+.mobile-app button {
+    color: white;
+    width: 40%;
+    height: 25%;
+    padding: 1%;
+    font-size: x-large;
+    background-color: #1F305E;
+    border-radius: 15%;
+}
+.settings{
+
+}
+.social-app{
+
+}
+.user-comment{
+    margin-left: 10%;
+    display: flex;
+}
+.black-girl{
+    padding: 5%;
+ 
+}
+.white-girl{
+    padding: 3%;
+
+}
+.last-div{
+    gap: 10%;
+    margin: 10% 14%;
+    display: flex;
+}
+.download-app{
+    width: 50%
+}
+.blue-footer{
+    background-color: #1F305E;
+ padding-left: 10%;
+    gap: 10%;
+    display: flex;
+    color: white;
+}
+.footer-heading{
+    font-size: 30px;
+}
+.black-footer{
+    color: white;
+    background-color: black;
+    padding: 2% 2% 2% 7%;
+    display: flex;
+}
+.terms{
+display: flex;
+margin-left: 35%;
+}
+
